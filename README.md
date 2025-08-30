@@ -16,5 +16,5 @@ Exploring all things F1 through data science! Documenting my journey in:
 - models/ – saved artifacts (gitignored)
 
 ## Data Sources
-- [f1db]((https://github.com/f1db/f1db)) – general, 40+ datasets on every Grand Prix since 1950
+- [f1db](https://github.com/f1db/f1db) – general, 40+ datasets on every Grand Prix since 1950
 - [FastF1](https://theoehrly.github.io/Fast-F1/) – for lap-by-lap telemetry, stints, and timing data  
