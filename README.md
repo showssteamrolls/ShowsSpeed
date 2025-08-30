@@ -1,4 +1,4 @@
-# ShowsSpeed
+# ShowsSpeed: F1 Data Science Project
 Exploring all things F1 through data science! Documenting my journey in:
 - scraping lap-by-lap telemetry
 - cleaning, organizing, & synthesizing 40+ datasets
