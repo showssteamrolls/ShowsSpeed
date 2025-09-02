@@ -15,6 +15,10 @@ Exploring all things F1 through data science! Documenting my journey in:
 - data/ – raw/interim/processed (gitignored)
 - models/ – saved artifacts (gitignored)
 
+## Continually Expanding:
+Here's what's coming next/currently being worked on:
+- ML Tire Degradation Estimator
+
 ## Data Sources
 - [f1db](https://github.com/f1db/f1db) – general, 40+ datasets on every Grand Prix since 1950
 - [FastF1](https://theoehrly.github.io/Fast-F1/) – for lap-by-lap telemetry, stints, and timing data  
