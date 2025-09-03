@@ -5,8 +5,9 @@ st.set_page_config(page_title="ShowsSpeed: Home", page_icon="🏎️", layout="w
 
 st.markdown("""
 <style>
-/* keep Streamlit header above custom bar so sidebar toggle works */
+/* keep Streamlit header + sidebar on top */
 header { z-index: 10000 !important; }
+section[data-testid="stSidebar"] { z-index: 9999 !important; }
 
 /* custom top bar sits under Streamlit header */
 .topbar{
