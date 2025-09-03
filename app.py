@@ -1,8 +1,5 @@
 import streamlit as st
 from pathlib import Path
-import fastf1, os
-fastf1.Cache.enable_cache('/tmp/fastf1')
-os.makedirs('/tmp/fastf1', exist_ok=True)
 
 st.set_page_config(page_title="ShowsSpeed: Home", page_icon="🏎️", layout="wide")
 
