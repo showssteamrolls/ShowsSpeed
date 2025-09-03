@@ -12,8 +12,8 @@ Exploring all things F1 through data science! Documenting my journey in:
 ## Repo Guide
 - ShowsSpeed.ipynb – EDA + models
 - FastF1_Scraper.ipynb – data acquisition recipe
-- data/ – raw/interim/processed (gitignored)
-- models/ – saved artifacts (gitignored)
+- pages/ – Streamlit setup
+- assets/ – images used in Streamlit, from Jupyter NB
 
 ## Continually Expanding:
 Here's what's coming next/currently being worked on:
