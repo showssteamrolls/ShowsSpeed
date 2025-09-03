@@ -6,3 +6,5 @@ seaborn
 Pillow
 scikit-learn
 fastf1
+streamlit
+jupyter
