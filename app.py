@@ -1,7 +1,7 @@
 import streamlit as st
 from pathlib import Path
 
-st.set_page_config(page_title="ShowsSpeed: Home", page_icon="🏎️", layout="wide")
+st.set_page_config(page_title="ShowsSpeed: Home", page_icon="🏎️", layout="wide", initial_sidebar_state="expanded")
 
 st.markdown("""
 <style>
@@ -37,7 +37,7 @@ li{margin:0.15em 0;}
 hr{height:1px; border:none; background:rgba(255,255,255,0.08); margin:18px 0 !important;}
 
 .blockpad{height:8px;}
-#MainMenu, header, footer {visibility:hidden;}
+#MainMenu, footer {visibility:hidden;}
 
 .big-text{font-size:48px !important; line-height:1.6;}
 
