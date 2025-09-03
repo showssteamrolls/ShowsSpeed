@@ -5,8 +5,12 @@ st.set_page_config(page_title="ShowsSpeed: Home", page_icon="🏎️", layout="w
 
 st.markdown("""
 <style>
+/* keep Streamlit header above custom bar so sidebar toggle works */
+header { z-index: 10000 !important; }
+
+/* custom top bar sits under Streamlit header */
 .topbar{
-  position:sticky; top:0; z-index:9999;
+  position:sticky; top:56px; z-index:10;
   display:flex; align-items:center; gap:20px;
   padding:16px 24px; height:100px; 
   background:linear-gradient(180deg,#14141b 0%, #111118 50%, #0e0e15 100%);
@@ -19,6 +23,7 @@ st.markdown("""
   color:#F5F5F5; font-size:48px;
 }
 
+/* background: fixed gradient around #111118 */
 [data-testid="stAppViewContainer"]{
   background:#111118;
   background-image:linear-gradient(180deg,#14141b 0%, #111118 50%, #0e0e15 100%);
@@ -26,10 +31,12 @@ st.markdown("""
   background-size:cover;
 }
 
+/* sidebar bg to match */
 section[data-testid="stSidebar"]{
   background:linear-gradient(180deg,#15151c 0%, #101018 100%);
 }
 
+/* tighter vertical rhythm */
 .block-container{padding-top:18px !important; padding-bottom:18px !important;}
 h1,h2,h3,h4,h5,h6{margin:0.2em 0 0.35em 0 !important;}
 p,ul,ol{margin:0.2em 0 0.45em 0 !important; line-height:1.45;}
