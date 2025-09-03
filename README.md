@@ -1,4 +1,7 @@
 # ShowsSpeed: F1 Data Science Project
+
+![Preview: Laptime Predictor (Random Forest Model)](assets/showsspeedmodel.png)
+
 Exploring all things F1 through data science! Documenting my journey in:
 - scraping lap-by-lap telemetry
 - cleaning, organizing, & synthesizing 40+ datasets
